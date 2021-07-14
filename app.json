@@ -1,7 +1,7 @@
 {
-  "name": "Mysterious BOT",
-  "description": "The best userbot made by @official_sameer Made with Love ❤️ And Phone And Hardwork and... Nhi aur kahi se to nhi bana😂...For Support Join @MYSTERIOUS_SUPPORT",  
-  "logo": "https://telegra.ph/file/48d566804827e94ef4a99.jpg",
+  "name": "BLACK PANTHERS BOT",
+  "description": "The best userbot made by @official_sameer Made with Love ❤️ And Phone And Hardwork and... Nhi aur kahi se to nhi bana😂...For Support Join @OPBLACKPANTHERS",  
+  "logo": "https://telegra.ph/file/514f861056aecefddc6ff.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sameerpanthi/Mysterious-bot/",
-  "website": "https://github.com/sameerpanthi/mysterious-bot/",
-  "success_url": "https://t.me/MYSTERIOUS_SUPPORT",
+  "repository": "https://github.com/sameerpanthi/BLACK-PANTHERS-bot/",
+  "website": "https://github.com/sameerpanthi/BLACK-PANTHERS-BOT/",
+  "success_url": "https://t.me/OPBLACKPANTHERS",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
@@ -24,27 +24,27 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @official_sameer. ",
-      "value": "@MYSTERIOUS_SUPPORT",
+      "value": "@OPBLACKPANTHERS",
       "required": false
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .awake Command.",
-      "value": "🔥 #𝙼𝚈𝚂𝚃𝙴𝚁𝙸𝙾𝚄𝚂_𝙸𝚂_𝙾𝙽_𝙵𝙸𝚁𝙴_𝚂𝙰𝙰𝚁 🔥",
+      "value": "🔥 #𝙱𝙻𝙰𝙲𝙺_𝙿𝙰𝙽𝚃𝙷𝙴𝚁𝚂_𝙸𝚂_𝙾𝙽_𝙵𝙸𝚁𝙴_𝚂𝙰𝙰𝚁 🔥",
       "required": false
-    },                 
+    },                               
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .alive and .awake command. Leave blank for default pic.",
-      "value": "https://telegra.ph/file/4fd3b65a954accca5d516.jpg",
+      "value": "https://telegra.ph/file/514f861056aecefddc6ff.jpg",
       "required": false
     },
     "BIO_MSG": {
-      "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "😈ᒪᗴᘜᗴᑎᗪᖇY ᗩᖴ ᗰYՏTᗴᖇIOᑌՏ ᗷOT😈",
+      "description": "Put Telegram Bio Here Required For Auto Bio.",
+      "value": "😈ᒪᗴᘜᗴᑎᗪᖇY ᗩᖴ ᗷᒪᗩᑕK ᑭᗩᑎTᕼᗴᖇՏ ᗷOT😈",
       "required": false
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "https://telegra.ph/file/4fd3b65a954accca5d516.jpg",
+      "value": "https://telegra.ph/file/514f861056aecefddc6ff.jpg",
       "required": false
     },
     "CUSTOM_PMPERMIT": {
@@ -54,7 +54,7 @@
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
-      "value": "-336323518",
+      "value": "",
       "required": false
     },
     "APP_ID": {
@@ -107,7 +107,7 @@
        "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://replit.com/@sameerpanthi/DEADLY-FIGHTERS-BOT#main.py ",
+      "description": "Get this value by running https://replit.com/@OPBLACKPANTHERS/BLACK-PANTHERS-BOT#main.py ",
       "value": ""
     },
     "HEROKU_API_KEY": {
@@ -152,9 +152,9 @@
       "value": "2",
       "required": true
     },
-    "EMOJI_TO_DISPLAY_IN_HELP": {
+    "EMOJI_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "🤖",
+      "value": "🔥",
       "required": false
     }, 
     "TZ": {
