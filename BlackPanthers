@@ -4,12 +4,12 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $MAFIA_REPO == "Mysterious-BOT" ]]
+    if [[ $MAFIA_REPO == "BLACK-panthers-BOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbWVlcnBhbnRoaS9NeXN0ZXJpb3VzLXVzZXJib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-    elif [[ $MAFIA_REPO == "Mysterious-BOT" ]]
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbWVlcnBhbnRoaS9QQU5USEVSUy1QTFVHSU4vYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+    elif [[ $MAFIA_REPO == "BLACK-PANTHERS-BOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbWVlcnBhbnRoaS9NeXN0ZXJpb3VzLXVzZXJib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbWVlcnBhbnRoaS9QQU5USEVSUy1QTFVHSU4vYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $MAFIA_REPO =~ $regex ]]
     then
         if [[ $MAFIA_REPO_BRANCH ]]
@@ -19,14 +19,14 @@ _get_repolink () {
             echo "${MAFIA_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbWVlcnBhbnRoaS9NeXN0ZXJpb3VzLXVzZXJib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbWVlcnBhbnRoaS9QQU5USEVSUy1QTFVHSU4vYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     fi
 }
 
 
 _set_bot () {
     local zippath
-    zippath="MysteriousBot.zip"
+    zippath="BlackPanthersBot.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
@@ -37,10 +37,10 @@ _set_bot () {
     rm -rf "$zippath"
     sleep 5
     cd $MAFIAPATH
-    echo "    Starting  MysteriousBot  "
+    echo "    Starting  BlackPanthers  "
     echo "
 
-                                  MysteriousBot
+                                  BlackPanthersBot
                           
     "
 
