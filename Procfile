@@ -1,1 +1,1 @@
-worker: bash MysteriousBot
+worker: bash BlackPanthers
