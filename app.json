@@ -29,7 +29,7 @@
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .awake Command.",
-      "value": "🔥 #𝙱𝙻𝙰𝙲𝙺_𝙿𝙰𝙽𝚃𝙷𝙴𝚁𝚂_𝙸𝚂_𝙾𝙽_𝙵𝙸𝚁𝙴_𝚂𝙰𝙰𝚁 🔥",
+      "value": "⚡️ #𝙿𝙰𝙽𝚃𝙷𝙴𝚁𝚂_𝙸𝚂_𝙾𝙽_𝙵𝙸𝚁𝙴 ⚡️",
       "required": false
     },                               
     "ALIVE_PIC": {
